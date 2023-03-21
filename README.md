@@ -1,1 +1,3 @@
-# calculator
+# Calculator
+
+from theodinproject.com
