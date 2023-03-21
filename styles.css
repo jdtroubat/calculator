@@ -1,33 +1,67 @@
-*{
-
-}
 body{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.btn{
+    justify-self: center;
+    align-self: center;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    font-size: 25px;
 }
 h1{
-
+    margin-right: 10px;
 }
+     
 .calculator{
-
+    display: flex;
 }
 .top-row{
-
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
 }
-.screen{
-
+#screen{
+    display: flex;
+    justify-content: flex-end;
+    border: solid 1px black;
+    border-radius: 10px;
+    height: 50px;
+    width: 190px;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+    background-color: rgb(225, 225, 225);
 }
-.clear{
-
+#clear{
+    border-radius: 50px;
+    margin-left: 20px;
 }
 .bottom-row{
-
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 .number,
 .decimal,
-.equal{
-
-}
+.equal,
 .operator{
+    border-radius: 50px;
+}
+
+.badge{
+    font-size: 8px;
+    margin-top: 10px;
 
 }
 
